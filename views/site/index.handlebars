@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-sm-2 g-4 py-2 mb-5">
+                        {{#each posts }}
+                        <div class="px-3">
+                            <div class="card shadow bg-light rounded mt-4 liste"><img class=" kartlar250 card-img-top w-100 d-block" src="{{kitapresmi}}">
+                                <div class="card-body" style="background-color: #3de9c6;"><a class="card-link" href="/posts/{{_id}}">
+                                        <h4>{{title}}</h4>
+                                    </a>
+                                    <p class="card-text mb-2">{{content}}</p><span class="badge badge-primary float-right"><i class="fa fa-star"></i>&nbsp; 42</span>
+                                </div>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>

@@ -1,0 +1,75 @@
+body{
+
+  background: linear-gradient(90deg, hsla(240, 71%, 36%, 1) 24%, hsla(190, 60%, 52%, 1) 100%);
+}
+
+.baslik30{
+
+  font-size: 30px;
+}
+
+.kartlar250{
+
+  max-height: 250px;
+}
+
+.boyut80{
+
+  max-width: 80%;margin: auto;
+}
+
+.pbeyaz{
+  color: rgb(255,255,255);font-size: 13px;
+
+}
+
+
+.myflex {
+  -ms-flex: 0 0 230px;
+  flex: 0 0 230px;
+  max-width: 50%!important;
+  background-color: greenyellow;
+}
+
+.solaSabitle {
+  position: fixed;
+  max-width: 450px;
+}
+
+
+@media (max-width: 1024px) {.solaSabitle {
+  position: static;
+}
+
+}
+
+.liste:hover {
+  transform: scale(1.125);
+  transition: 2s;
+  color: white;
+}
+
+.haftaninOnerisi{
+
+  margin: auto; max-height:50%; width:70%;
+}
+
+
+.haftaninOnerisi:hover {
+  transition: 1.5s;
+  transform: scale(1.25);
+}
+
+.card-link {
+  color: black;
+}
+
+.card.shadow.bg-light.rounded.mt-4.liste {
+
+  border-width: 2px;
+}
+
+.listeTrend .card {
+  border-color: red;
+}
+
